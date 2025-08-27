@@ -1,4 +1,4 @@
-# Generic-doubly-linked-list-in-C-language
+# Generic doubly linked list in C language
 A shared library which provides a set of functions for handling the doubly linked list in C.
 
 <h2> How to download ?</h2>
