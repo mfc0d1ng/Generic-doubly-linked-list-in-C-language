@@ -33,7 +33,7 @@ int main()
     }
 
     /* Insert 100 at the beginning of integers */
-    list_insert(int, &integers, List_begin(&integers), 100);
+    list_insert(int, &integers, list_begin(&integers), 100);
 
     /* Print contents of integers */
     printf("list integers contains: ");
@@ -57,6 +57,12 @@ int main()
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 #include "list.h"
+
+ /* Sort predicate */
+int sort_fruits_predicate(const void* __ls, const void* __rs)
+{
+    return strcmp(*(const char **)__ls, *(const char **)__rs) > 0;
+}
 
 int main()
 {
