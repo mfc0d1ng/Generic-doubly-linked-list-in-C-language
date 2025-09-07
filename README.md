@@ -2,7 +2,7 @@
 A shared library which provides a set of functions for handling the doubly linked list in C.
 
 <h2> How to download ?</h2>
-You can download it <a href="https://github.com/user-attachments/files/22051700/liblist.zip">here</a>
+You can download it <a href="https://github.com/user-attachments/files/22196929/liblist.zip">here</a>
 
 <h2> How to install? </h2>
  Unzip the downloaded file and move liblist.so to /usr/lib
